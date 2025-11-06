@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <script src="js/kalkulacka.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Kalkulačka na typ psa
+        </h1>
+        <div class="form-group row">
+                    <label for="firstname" class="col-sm-3 col-form-label">Kolik času v mám na psa denně(v hodinách)<aside></aside></label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" name="firstname" id="cas"
+                            placeholder="Zadej čas(v hodinách)" />
+                    </div>
+                </div>
+                </div>
+                <div class="form-group row">
+                    <label for="sex" class="col-sm-3 col-form-label">Pohlaví</label>
+                    <div class="col-sm-9">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="zah" id="zahrada" value="ano" />
+                                Mam zahradu
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="zah" id="zahrada" value="ne" />
+                                Nemam zahradu
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset-sm-3 col-sm-9">
+                        <button type="button" id="calc" class="btn btn-primary">
+                            Zjistit
+                        </button>
+                    </div>
+                </div>
+                <div id="result" class="display-4">?</div>
+        </div>
+    </main>
+    <script src="js/kalkulacka.js"></script>
+</body>
+</html>
